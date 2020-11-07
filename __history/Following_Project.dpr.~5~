@@ -1,0 +1,17 @@
+program Following_Project;
+
+uses
+  Vcl.Forms,
+  Second in 'Second.pas' {frmSort},
+  SortThread in 'SortThread.pas' {frmSortThread},
+  uSortThread in 'uSortThread.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TfrmSort, frmSort);
+  Application.CreateForm(TfrmSortThread, frmSortThread);
+  Application.Run;
+end.

@@ -1,0 +1,14 @@
+program Following_Project;
+
+uses
+  Vcl.Forms,
+  Second in 'Second.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.

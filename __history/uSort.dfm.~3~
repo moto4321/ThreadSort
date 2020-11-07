@@ -1,0 +1,58 @@
+object frmSort: TfrmSort
+  Left = 0
+  Top = 0
+  Caption = 'Sort'
+  ClientHeight = 515
+  ClientWidth = 816
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Startbtn: TButton
+    Left = 464
+    Top = 8
+    Width = 113
+    Height = 49
+    Caption = 'Start'
+    TabOrder = 0
+    OnClick = StartbtnClick
+  end
+  object BubbleSOrt_ListBox: TListBox
+    Left = 40
+    Top = 160
+    Width = 121
+    Height = 97
+    ItemHeight = 13
+    TabOrder = 1
+  end
+  object SelectionSort_ListBox: TListBox
+    Left = 232
+    Top = 160
+    Width = 121
+    Height = 97
+    ItemHeight = 13
+    TabOrder = 2
+  end
+  object QuickSort_ListBox: TListBox
+    Left = 424
+    Top = 160
+    Width = 121
+    Height = 97
+    ItemHeight = 13
+    TabOrder = 3
+  end
+  object Result_ListBox: TListBox
+    Left = 608
+    Top = 160
+    Width = 121
+    Height = 97
+    ItemHeight = 13
+    TabOrder = 4
+  end
+end

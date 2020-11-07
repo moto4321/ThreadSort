@@ -1,0 +1,26 @@
+object frmSort: TfrmSort
+  Left = 0
+  Top = 0
+  Caption = 'Sort'
+  ClientHeight = 366
+  ClientWidth = 596
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Startbtn: TButton
+    Left = 240
+    Top = 144
+    Width = 113
+    Height = 49
+    Caption = 'Start'
+    TabOrder = 0
+    OnClick = StartbtnClick
+  end
+end
