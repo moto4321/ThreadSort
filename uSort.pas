@@ -97,8 +97,8 @@ begin
 end;
 
 procedure TfrmSort.ThreadDone(Sender: TObject);
-var
-  i: byte;
+//var
+//  i: byte;
 begin
   Dec(ThreadsRunning);
   if ThreadsRunning = 0 then
